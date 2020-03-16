@@ -1,0 +1,13 @@
+data=load("/tmp/measurer_data.txt")
+
+samples=data(1:2:end)
+timestamps=data(2:2:end)
+
+# Remove some elements used for initialisation or padding inside the GNURadio module
+samples(end)=[]
+timestamps=timestamps(2:end)
+
+time=linspace(0,1,200)
+samples_partial=samples(1:200)
+
+plot(time, samples_partial)

@@ -1,0 +1,5 @@
+Sender:
+$ sudo ./tx_waveforms --rate 1e6 --freq 433e6 --ampl 0.6 --gain 70 --bw 200e3 --wave-type SINE --wave-freq 10e3 --spb 100 --otw sc16
+
+Empfanger:
+$ sudo ./rx_samples_to_file --freq 433e6 --rate 2e6 --bw 200e3 --gain 0 --nsamps 0 --spb 10000

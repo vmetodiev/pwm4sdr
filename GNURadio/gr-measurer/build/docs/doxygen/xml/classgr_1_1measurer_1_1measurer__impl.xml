@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1measurer_1_1measurer__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::measurer::measurer_impl</compoundname>
+    <basecompoundref refid="classgr_1_1measurer_1_1measurer" prot="public" virt="non-virtual">gr::measurer::measurer</basecompoundref>
+    <includes refid="measurer__impl_8h" local="no">measurer_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1measurer_1_1measurer__impl_1ab0d1f54ec92dee746bd7462c6a0f0fbd" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::measurer::measurer_impl::pause</definition>
+        <argsstring></argsstring>
+        <name>pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="34" column="1" bodyfile="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1measurer_1_1measurer__impl_1a919bf666dc53107fc27e7a3ab4b008a4" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::measurer::measurer_impl::array_len</definition>
+        <argsstring></argsstring>
+        <name>array_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="35" column="1" bodyfile="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1a14c0f9ab9229bd49220ceb567e8b33ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::measurer::measurer_impl::measurer_impl</definition>
+        <argsstring>(uint8_t pause)</argsstring>
+        <name>measurer_impl</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pause</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1a62e8b872bb5e8b9eb984674373a8c605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::measurer::measurer_impl::~measurer_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~measurer_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1acd944e01ef4717be2c7fef8dd75a3d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::measurer::measurer_impl::set_pause</definition>
+        <argsstring>(unsigned int delay)</argsstring>
+        <name>set_pause</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1af6411a8017cb9c78f728c40a3e669364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::measurer::measurer_impl::get_pause</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_pause</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1a1026b3031141cbe82bd6cabfe41d1654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::measurer::measurer_impl::set_array_len</definition>
+        <argsstring>(unsigned int len)</argsstring>
+        <name>set_array_len</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1aa6804cb1f730523752c4d05ba260bc71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::measurer::measurer_impl::get_array_len</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_array_len</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1aad8cccdb8322c945232f9bf720b89565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::measurer::measurer_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer__impl_1a62f509618225e0aab5f9b647d655ba26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::measurer::measurer_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>gr::block</label>
+      </node>
+      <node id="12">
+        <label>gr::measurer::measurer</label>
+        <link refid="classgr_1_1measurer_1_1measurer"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::measurer::measurer_impl</label>
+        <link refid="classgr_1_1measurer_1_1measurer__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>gr::block</label>
+      </node>
+      <node id="15">
+        <label>gr::measurer::measurer</label>
+        <link refid="classgr_1_1measurer_1_1measurer"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gr::measurer::measurer_impl</label>
+        <link refid="classgr_1_1measurer_1_1measurer__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" line="32" column="1" bodyfile="/home/ubuntu/mount/work/gr-measurer/lib/measurer_impl.h" bodystart="31" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1a919bf666dc53107fc27e7a3ab4b008a4" prot="private" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>array_len</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1aad8cccdb8322c945232f9bf720b89565" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1a62f509618225e0aab5f9b647d655ba26" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1aa6804cb1f730523752c4d05ba260bc71" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>get_array_len</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1af6411a8017cb9c78f728c40a3e669364" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>get_pause</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer_1a94a6bf088b7c52300864ae94d741e71b" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1a14c0f9ab9229bd49220ceb567e8b33ce" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>measurer_impl</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1ab0d1f54ec92dee746bd7462c6a0f0fbd" prot="private" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>pause</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1a1026b3031141cbe82bd6cabfe41d1654" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>set_array_len</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1acd944e01ef4717be2c7fef8dd75a3d55" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>set_pause</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer_1ad86b303a4d381ff3496651b4df29db1b" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer__impl_1a62e8b872bb5e8b9eb984674373a8c605" prot="public" virt="non-virtual"><scope>gr::measurer::measurer_impl</scope><name>~measurer_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio MEASURER C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the MEASURER GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

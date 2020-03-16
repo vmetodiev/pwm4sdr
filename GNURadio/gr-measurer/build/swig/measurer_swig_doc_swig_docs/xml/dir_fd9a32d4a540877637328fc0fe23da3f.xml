@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_fd9a32d4a540877637328fc0fe23da3f" kind="dir">
+    <compoundname>/home/ubuntu/mount/work/gr-measurer/include/measurer</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="measurer_8h">measurer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/mount/work/gr-measurer/include/measurer/"/>
+  </compounddef>
+</doxygen>

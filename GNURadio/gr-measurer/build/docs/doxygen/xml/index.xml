@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1measurer_1_1measurer" kind="class"><name>gr::measurer::measurer</name>
+    <member refid="classgr_1_1measurer_1_1measurer_1ad86b303a4d381ff3496651b4df29db1b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer_1a94a6bf088b7c52300864ae94d741e71b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1measurer_1_1measurer__impl" kind="class"><name>gr::measurer::measurer_impl</name>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1ab0d1f54ec92dee746bd7462c6a0f0fbd" kind="variable"><name>pause</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1a919bf666dc53107fc27e7a3ab4b008a4" kind="variable"><name>array_len</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1a14c0f9ab9229bd49220ceb567e8b33ce" kind="function"><name>measurer_impl</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1a62e8b872bb5e8b9eb984674373a8c605" kind="function"><name>~measurer_impl</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1acd944e01ef4717be2c7fef8dd75a3d55" kind="function"><name>set_pause</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1af6411a8017cb9c78f728c40a3e669364" kind="function"><name>get_pause</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1a1026b3031141cbe82bd6cabfe41d1654" kind="function"><name>set_array_len</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1aa6804cb1f730523752c4d05ba260bc71" kind="function"><name>get_array_len</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1aad8cccdb8322c945232f9bf720b89565" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1measurer_1_1measurer__impl_1a62f509618225e0aab5f9b647d655ba26" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1measurer" kind="namespace"><name>gr::measurer</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a1fb939d0fded8f914bd87838674ff77a" kind="define"><name>MEASURER_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="measurer_8h" kind="file"><name>measurer.h</name>
+  </compound>
+  <compound refid="measurer__impl_8h" kind="file"><name>measurer_impl.h</name>
+    <member refid="measurer__impl_8h_1a2ef269ee471abaa37924edafc01a9828" kind="define"><name>DEFAULT_ARR_LEN</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_fd9a32d4a540877637328fc0fe23da3f" kind="dir"><name>measurer</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

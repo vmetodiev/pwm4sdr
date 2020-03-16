@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1measurer_1_1measurer" kind="class" language="C++" prot="public">
+    <compoundname>gr::measurer::measurer</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1measurer_1_1measurer__impl" prot="public" virt="non-virtual">gr::measurer::measurer_impl</derivedcompoundref>
+    <includes refid="measurer_8h" local="no">measurer.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1measurer_1_1measurer_1ad86b303a4d381ff3496651b4df29db1b" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1measurer_1_1measurer" kindref="compound">measurer</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;measurer&gt; gr::measurer::measurer::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/include/measurer/measurer.h" line="39" column="1" bodyfile="/home/ubuntu/mount/work/gr-measurer/include/measurer/measurer.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1measurer_1_1measurer_1a94a6bf088b7c52300864ae94d741e71b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1measurer_1_1measurer_1ad86b303a4d381ff3496651b4df29db1b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::measurer::measurer::make</definition>
+        <argsstring>(uint8_t pause)</argsstring>
+        <name>make</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pause</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1measurer_1_1measurer" kindref="compound">measurer::measurer</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1measurer_1_1measurer" kindref="compound">measurer::measurer</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1measurer_1_1measurer_1a94a6bf088b7c52300864ae94d741e71b" kindref="member">measurer::measurer::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/mount/work/gr-measurer/include/measurer/measurer.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+      <node id="6">
+        <label>gr::measurer::measurer</label>
+        <link refid="classgr_1_1measurer_1_1measurer"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::measurer::measurer_impl</label>
+        <link refid="classgr_1_1measurer_1_1measurer__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+      <node id="9">
+        <label>gr::measurer::measurer</label>
+        <link refid="classgr_1_1measurer_1_1measurer"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/mount/work/gr-measurer/include/measurer/measurer.h" line="37" column="1" bodyfile="/home/ubuntu/mount/work/gr-measurer/include/measurer/measurer.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1measurer_1_1measurer_1a94a6bf088b7c52300864ae94d741e71b" prot="public" virt="non-virtual"><scope>gr::measurer::measurer</scope><name>make</name></member>
+      <member refid="classgr_1_1measurer_1_1measurer_1ad86b303a4d381ff3496651b4df29db1b" prot="public" virt="non-virtual"><scope>gr::measurer::measurer</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
