@@ -1,2 +1,2 @@
 # pwm4sdr
-Pulse Width Modulation for Software Defined Radio
+An alternative approach for data coding and modulation using PWM (Pulse Width Modulation) implemented in an SDR environment.
